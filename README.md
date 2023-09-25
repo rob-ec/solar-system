@@ -68,15 +68,15 @@ O projeto pode conter opcionalmente:
       </a>
     </td>
     <td align="center">
-      <a href="#" target="_blank">
-        <img loading="lazy" src="https://icon-library.com/images/generic-user-icon/generic-user-icon-13.jpg" width=115 >
+      <a href="https://github.com/jonas-ar" target="_blank">
+        <img loading="lazy" src="https://avatars.githubusercontent.com/u/96082984?v=4" width=115 >
         <br>
         <sub>Jonas Fontenele</sub>
       </a>
     </td>
     <td align="center">
-      <a href="#" target="_blank">
-        <img loading="lazy" src="https://icon-library.com/images/generic-user-icon/generic-user-icon-13.jpg" width=115 >
+      <a href="https://github.com/vinic-costa" target="_blank">
+        <img loading="lazy" src="https://avatars.githubusercontent.com/u/108631277?v=4" width=115 >
         <br>
         <sub>Vinícius Santos</sub>
       </a>
