@@ -40,8 +40,8 @@ O projeto pode conter opcionalmente:
 <table>
   <tr>
     <td align="center">
-      <a href="#" target="_blank">
-        <img loading="lazy" src="https://icon-library.com/images/generic-user-icon/generic-user-icon-13.jpg" width=115 >
+      <a href="https://github.com/yarabrg" target="_blank">
+        <img loading="lazy" src="https://avatars.githubusercontent.com/u/89154264?v=4" width=115 >
         <br>
         <sub>Yara Silva</sub>
       </a>
