@@ -50,7 +50,7 @@ camera.position.set(-90,140,140);
 orbit.update();
 
 //Inializando a luz no sistema
-const ambientLight = new THREE.AmbientLight(0x333333);
+const ambientLight = new THREE.AmbientLight(0xFFFFFF);
 scene.add(ambientLight);
 
 //inicializando os planetas
