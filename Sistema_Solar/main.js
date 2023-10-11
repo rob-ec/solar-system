@@ -28,7 +28,7 @@ const camera = new THREE.PerspectiveCamera(
   45,
   window.innerWidth/window.innerHeight,
   0.1,
-  1000
+  2000
 );
 
 // Colocando o Background do Sistema Solar
@@ -47,6 +47,15 @@ scene.background = cubeTextureLoader.load([
 
 const orbit = new OrbitControls(camera, renderer.domElement);
 camera.position.set(-90,140,140);
+
+// controle do estado da câmera
+orbit.saveState(); // salva o estado incial
+window.addEventListener('keydown', function(e){
+  if (e.code === 'KeyR')
+    orbit.reset(); // reseta para o estado inicial
+})
+orbit.enableDamping = true; // "peso" para o movimento da câmera
+
 orbit.update();
 
 //Inializando a luz no sistema
