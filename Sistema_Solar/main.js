@@ -59,9 +59,10 @@ window.addEventListener('keydown', function (e) {
   // Ajusta a velocidade com base nas teclas '+' e '-'
   if (e.shiftKey && e.code === 'Equal' || e.code === 'NumpadAdd') { // Tecla '+'
     speed *= 1.2;
-  } else if (e.key === '-' || e.code === 'NumpadSubtract') { // Tecla '-'
+  } else if (e.key === '-') { // Tecla '-'
     speed /= 1.2;
-  }
+  } else if (e.key === '0') // restaura a velocidade para o valor padrão
+    speed = 1;
 });
 orbit.enableDamping = true; // "peso" para o movimento da câmera
 
