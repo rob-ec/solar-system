@@ -3,7 +3,7 @@
 ![Three.JS v0.156.1](https://img.shields.io/badge/Three.JS-0.156.1-gray?logo=threedotjs&labelColor=000000)
 
 
-Cena em 3D com a formação e movimentação do Sistema Solar. O projeto foi criado durante a disciplina de Computação Gráfica do curso de Engenharia de Computação da Universidade Federal do Ceará.
+Cena em 3D com a formação e movimentação do Sistema Solar. O projeto foi criado durante a disciplina de Computação Gráfica do curso de Engenharia de Computação da Universidade Federal do Ceará. Sua execução pode ser vista em: <a href target="_blank">https://youtu.be/wmKmgr7_J5k</a>
 
 ## Setup
 
@@ -36,7 +36,7 @@ O projeto precisa contear obrigatoriamente:
  - [X] `Requisito 4`: Aplicar a translação dos planetas ao redor do Sol;
  - [X] `Requisito 5`: Permitir a possibilidade de mudança de velocidade dos movimentos dos planetas por teclas;
  - [X] `Requisito 6`: Planetas realizarem a própria rotação em torno de cada si mesmos;
- - [ ] `Requisito 7`: Incluir projeto no GitHub e no README adicionar link de vídeo de demonstração no Youtube mostrando o funcionamento da cena 3D;
+ - [X] `Requisito 7`: Incluir projeto no GitHub e no README adicionar link de vídeo de demonstração no Youtube mostrando o funcionamento da cena 3D;
 
 ### Extras
 O projeto pode conter opcionalmente:
@@ -52,6 +52,9 @@ O projeto pode conter opcionalmente:
 
 ### Em movimento
 ![Gif em movimento da simulação do sistema solar](Demo/demo.gif)
+
+### Vídeo do projeto
+[![SOLAR SYSTEM](http://img.youtube.com/vi/wmKmgr7_J5k/0.jpg)](http://www.youtube.com/watch?v=wmKmgr7_J5k)
 
 ## Autores
 
