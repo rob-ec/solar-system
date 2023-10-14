@@ -5,6 +5,19 @@
 
 Cena em 3D com a formação e movimentação do Sistema Solar. O projeto foi criado durante a disciplina de Computação Gráfica do curso de Engenharia de Computação da Universidade Federal do Ceará.
 
+## Setup
+
+Na pasta [`Sistema_Solar`](Sistema_Solar) execute:
+```bash
+npm install
+```
+
+### Run
+Na pasta [`Sistema_Solar`](Sistema_Solar) execute:
+```bash
+npm run dev
+```
+
 ## Requisitos
 O Projeto se trata de uma simulação/represetação do **Sistema Solar** utilizando como base a biblioteca [Three.JS](https://threejs.org/).
 
