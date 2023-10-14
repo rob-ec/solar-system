@@ -54,13 +54,12 @@ camera.position.set(-90, 140, 140);
 // controle do estado da câmera
 orbit.saveState(); // salva o estado inicial
 window.addEventListener('keydown', function (e) {
-  if (e.code === 'KeyR')
+  if (e.key === 'r')
     orbit.reset(); // reseta para o estado inicial
-
   // Ajusta a velocidade com base nas teclas '+' e '-'
-  if (e.code === 'Equal') { // Tecla '+'
+  if (e.shiftKey && e.code === 'Equal' || e.code === 'NumpadAdd') { // Tecla '+'
     speed *= 1.2;
-  } else if (e.code === 'Minus') { // Tecla '-'
+  } else if (e.key === '-' || e.code === 'NumpadSubtract') { // Tecla '-'
     speed /= 1.2;
   }
 });
@@ -185,7 +184,8 @@ function animate() {
   neptune.planetObj.rotateY(0.0001 * speed);
 
   // Info para controle de velocidade do movimento dos planetas
-  speedInfo.innerText = `Tecla ( + ): aumenta a velocidade de movimento dos planetas \n Tecla ( - ): diminui a velocidade de movimento dos planetas`;
+  speedInfo.innerText = `Tecla ( + ): aumenta a velocidade de movimento dos planetas \n 
+  Tecla ( - ): diminui a velocidade de movimento dos planetas \n`;
 
   renderer.render(scene, camera);
 }
