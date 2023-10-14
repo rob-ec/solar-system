@@ -42,8 +42,8 @@ O projeto precisa contear obrigatoriamente:
 O projeto pode conter opcionalmente:
 
  - [X] `Extra 1`: Representação eficiente dos anéis de Saturno;
- - [X] `Extra 2`: Representação de alguma(s) amostra(s) de satélite(s);
- - [ ] `Extra 3`: Planetas ficarem em velocidades distintas;
+ - [ ] `Extra 2`: Representação de alguma(s) amostra(s) de satélite(s);
+ - [X] `Extra 3`: Planetas ficarem em velocidades distintas;
  - [X] `Extra 4`: Adiciona teclas para interação do usuário.
 
 ## Demo
